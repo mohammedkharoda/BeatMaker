@@ -5,6 +5,7 @@
 }
 body {
   font-family: sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 i,
@@ -12,6 +13,9 @@ svg {
   pointer-events: none;
 }
 
+h1 {
+  color: whitesmoke;
+}
 .kick-pad,
 .tom-pad,
 .perc-pad {
@@ -22,26 +26,26 @@ svg {
 }
 
 .kick-pad {
-  background: rgba(180, 69, 5, 0.451);
+  background: rgba(230, 57, 71, 0.493);
 }
 
 .tom-pad {
-  background: rgba(62, 158, 51, 0.445);
+  background: rgba(238, 155, 0, 0.699);
 }
 
 .perc-pad {
-  background: rgba(14, 161, 117, 0.451);
+  background: rgba(72, 12, 168, 0.589);
 }
 .kick-pad.active {
-  background: rgb(180, 69, 5);
+  background: rgb(230, 57, 71);
 }
 
 .tom-pad.active {
-  background: rgba(62, 158, 51, 0.637);
+  background: rgb(238, 155, 0);
 }
 
 .perc-pad.active {
-  background: rgba(14, 161, 117, 0.79);
+  background: rgb(72, 12, 168);
 }
 
 .sequencer {
@@ -92,9 +96,10 @@ svg {
 .play {
   padding: 1rem 2rem;
   font-size: 1.5rem;
-  background: rgb(88, 88, 88);
+  background: rgb(222, 128, 12);
   color: white;
   border: none;
+  border-radius: 1.5rem;
   cursor: pointer;
   margin-top: 3rem;
 }

@@ -16,97 +16,101 @@
     <title>BeatMaker</title>
   </head>
   <body>
-    <div class="sequencer">
-      <!-- ! Track -- 1 -->
-      <div class="kick-track">
-        <div class="controls">
-          <h1>Kicks</h1>
-          <button class="mute kick-volume" data-track="0">
-            <i class="fa-solid fa-volume-xmark"></i>
-          </button>
-          <select name="kick-select" id="kick-select">
-            <option value="./allSounds/kick-classic.wav">Classic Kick</option>
-            <option value="./allSounds/kick-808.wav">808 Kick</option>
-            <option value="./allSounds/kick-heavy.wav">Kick Heavy</option>
-            <option value="./allSounds/kick-softy.wav">Kick Softy</option>
-          </select>
-          <div class="kick">
-            <div class="pad kick-pad b0"></div>
-            <div class="pad kick-pad b1"></div>
-            <div class="pad kick-pad b2"></div>
-            <div class="pad kick-pad b3"></div>
-            <div class="pad kick-pad b4"></div>
-            <div class="pad kick-pad b5"></div>
-            <div class="pad kick-pad b6"></div>
-            <div class="pad kick-pad b7"></div>
+    <div class="hero-container">
+      <div class="sequencer">
+        <!-- ! Track -- 1 -->
+        <div class="kick-track">
+          <div class="controls">
+            <h1>Kicks</h1>
+            <button class="mute kick-volume" data-track="0">
+              <i class="fa-solid fa-volume-xmark"></i>
+            </button>
+            <select name="kick-select" id="kick-select">
+              <option value="./allSounds/kick-classic.wav">Classic Kick</option>
+              <option value="./allSounds/kick-808.wav">808 Kick</option>
+              <option value="./allSounds/kick-heavy.wav">Kick Heavy</option>
+              <option value="./allSounds/kick-softy.wav">Kick Softy</option>
+            </select>
+            <div class="kick">
+              <div class="pad kick-pad b0"></div>
+              <div class="pad kick-pad b1"></div>
+              <div class="pad kick-pad b2"></div>
+              <div class="pad kick-pad b3"></div>
+              <div class="pad kick-pad b4"></div>
+              <div class="pad kick-pad b5"></div>
+              <div class="pad kick-pad b6"></div>
+              <div class="pad kick-pad b7"></div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- ! Track -- 2 -->
-      <div class="tom-track">
-        <div class="controls">
-          <h1>Tom</h1>
-          <button class="mute tom-volume" data-track="1">
-            <i class="fa-solid fa-volume-xmark"></i>
-          </button>
-          <select name="tom-select" id="tom-select">
-            <option value="./allSounds/tom-acoustic01.wav">Tom Acoustic</option>
-            <option value="./allSounds/tom-808.wav">Tom 808</option>
-            <option value="./allSounds/tom-analog.wav">Tom Analog</option>
-          </select>
-          <div class="tom">
-            <div class="pad tom-pad b0"></div>
-            <div class="pad tom-pad b1"></div>
-            <div class="pad tom-pad b2"></div>
-            <div class="pad tom-pad b3"></div>
-            <div class="pad tom-pad b4"></div>
-            <div class="pad tom-pad b5"></div>
-            <div class="pad tom-pad b6"></div>
-            <div class="pad tom-pad b7"></div>
+        <!-- ! Track -- 2 -->
+        <div class="tom-track">
+          <div class="controls">
+            <h1>Tom</h1>
+            <button class="mute tom-volume" data-track="1">
+              <i class="fa-solid fa-volume-xmark"></i>
+            </button>
+            <select name="tom-select" id="tom-select">
+              <option value="./allSounds/tom-acoustic01.wav">
+                Tom Acoustic
+              </option>
+              <option value="./allSounds/tom-808.wav">Tom 808</option>
+              <option value="./allSounds/tom-analog.wav">Tom Analog</option>
+            </select>
+            <div class="tom">
+              <div class="pad tom-pad b0"></div>
+              <div class="pad tom-pad b1"></div>
+              <div class="pad tom-pad b2"></div>
+              <div class="pad tom-pad b3"></div>
+              <div class="pad tom-pad b4"></div>
+              <div class="pad tom-pad b5"></div>
+              <div class="pad tom-pad b6"></div>
+              <div class="pad tom-pad b7"></div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- ! Track - 3 -->
-      <div class="perc-track">
-        <div class="controls">
-          <h1>Perc</h1>
-          <button class="mute perc-volume" data-track="0">
-            <i class="fa-solid fa-volume-xmark"></i>
-          </button>
-          <select name="perc-select" id="perc-select">
-            <option value="./allSounds/perc-laser.wav">Perc Laser</option>
-            <option value="./allSounds/perc-nasty.wav">Perc Nasty</option>
-            <option value="./allSounds/perc-tambo.wav">Perc tambo</option>
-          </select>
-          <div class="perc">
-            <div class="pad perc-pad b0"></div>
-            <div class="pad perc-pad b1"></div>
-            <div class="pad perc-pad b2"></div>
-            <div class="pad perc-pad b3"></div>
-            <div class="pad perc-pad b4"></div>
-            <div class="pad perc-pad b5"></div>
-            <div class="pad perc-pad b6"></div>
-            <div class="pad perc-pad b7"></div>
+        <!-- ! Track - 3 -->
+        <div class="perc-track">
+          <div class="controls">
+            <h1>Perc</h1>
+            <button class="mute perc-volume" data-track="2">
+              <i class="fa-solid fa-volume-xmark"></i>
+            </button>
+            <select name="perc-select" id="perc-select">
+              <option value="./allSounds/perc-laser.wav">Perc Laser</option>
+              <option value="./allSounds/perc-nasty.wav">Perc Nasty</option>
+              <option value="./allSounds/perc-tambo.wav">Perc tambo</option>
+            </select>
+            <div class="perc">
+              <div class="pad perc-pad b0"></div>
+              <div class="pad perc-pad b1"></div>
+              <div class="pad perc-pad b2"></div>
+              <div class="pad perc-pad b3"></div>
+              <div class="pad perc-pad b4"></div>
+              <div class="pad perc-pad b5"></div>
+              <div class="pad perc-pad b6"></div>
+              <div class="pad perc-pad b7"></div>
+            </div>
           </div>
         </div>
-      </div>
-      <button class="play">Play</button>
-      <div class="tempo">
-        <input
-          type="range"
-          class="tempo-slider"
-          max="300"
-          min="20"
-          value="150"
-        />
-        <p>Tempo: <span class="tempo-nr">150</span></p>
+        <button class="play">Play</button>
+        <div class="tempo">
+          <input
+            type="range"
+            class="tempo-slider"
+            max="300"
+            min="20"
+            value="150"
+          />
+          <p>Tempo: <span class="tempo-nr">150</span></p>
+        </div>
       </div>
     </div>
 
-    <audio src="./allSounds/kick-stomp.wav" class="kick-sound"></audio>
-    <audio src="./allSounds/tom-acoustic01.wav" class="tom-sound"></audio>
+    <audio src="./allSounds/snare-vinyl01.wav" class="kick-sound"></audio>
+    <audio src="./allSounds/tom-lofi.wav" class="tom-sound"></audio>
     <audio src="./allSounds/perc-808.wav" class="perc-sound"></audio>
   </body>
 </html>
